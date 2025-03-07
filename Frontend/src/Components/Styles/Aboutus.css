@@ -1,0 +1,67 @@
+/* .image-container{
+    display: grid;
+    grid-template-columns: 1fr; 
+    place-items: center; 
+    gap: 20px;
+} */
+ /* .vectorimg{
+    width:700px;
+ }
+ 
+ .about1Img{
+    width:300px;
+    margin-top:10px;
+ }
+.about2Img{
+    width:300px;   
+}
+.about3Img{
+    width:300px;
+} */
+
+
+.about-us-container {
+    position: relative;
+    text-align: center;
+}
+
+.vectorimg {
+    position:relative;
+    width: 80%;
+    height: auto;
+    z-index:1;
+   
+}
+
+.about-img {
+    position:absolute;
+    top:5%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    z-index:2;
+}
+
+.about1Img, .about2Img {
+    position: absolute;
+    top: 25%;  /* Adjust this value to position the images correctly */
+    transform: translateY(-50%);
+}
+
+.about1Img {
+    left: 15%;
+    width:25%;
+}
+
+.about2Img {
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+.about3Img {
+    position:absolute;
+    top:47%;
+    transform:translateY(-50%);
+    right: 20%;
+    width:25%;
+}
